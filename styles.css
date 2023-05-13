@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", arial;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0px 90px;
+  background-color: #1f2937;
+  color: #f9f1f8;
+}
+
+.header-logo {
+  color: #f9f1f8;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 0px 90px;
+  background-color: #1f2937;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.hero-main-text {
+  color: #f9f1f8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9f1f8;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  border: 1px solid #e5e7eb;
+}
+
+.hero-img {
+  height: 200px;
+  width: 400px;
+  margin-left: 90px;
+}
+
+.photo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+
+.photo-section-header {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.photos-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.photo-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo-img {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 48px;
+  font-style: italic;
+  gap: 20px;
+  padding: 0px 400px;
+}
+
+.sign {
+  color: #1f2937;
+  font-size: 16px;
+  font-style: normal;
+  align-self: flex-end;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.call-to-action-grid {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.call-to-action-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #f9f1f8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+  color: #f9f1f8;
+}
